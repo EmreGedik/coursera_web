@@ -1,0 +1,135 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align:center;
+  color: #000000;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+section{
+  background-color: #D3D3D3;
+  position: relative;
+  height: 160px;
+  padding: 40px 10px 10px 10px;
+  border: 1px solid black;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 15px;
+  color: #000000;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  overflow: hidden;
+}
+
+
+.type1 {
+  border: 1% solid black;
+  background-color: #FF1493;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 30%;
+  height: 20%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.p1{
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  display: inline-block;
+  padding-top: 3px;
+}
+
+
+
+.type2 {
+  border: 1% solid black;
+  background-color: #FF6347;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 30%;
+  height: 20%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.p2{
+  font-weight: bold;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  display: inline-block;
+  padding-top: 3px;
+}
+
+
+
+
+.type3 {
+  border: 1% solid black;
+  background-color: #E4E1AE;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 30%;
+  height: 20%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.p3{
+  font-weight: bold;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  display: inline-block;
+  padding-top: 3px;
+}
+
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 31.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-4 {
+    width: 48%;
+  }
+  .col-md-6 {
+    width: 98%;
+  }
+}
